@@ -1,7 +1,7 @@
 import './Inicio.css'
 
 function App() {
-
+  
   return (
     <>
     <div className='Fondo' >
