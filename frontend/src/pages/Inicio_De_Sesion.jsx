@@ -4,19 +4,18 @@ function App() {
   
   return (
     <>
-    <div className='Fondo' >
-      <img className='Logo'></img>
-      <div className='float'>
-        <h1 className='titulo'> Iniciar Sesion </h1>
-          <h1 className='Texto'> Correo Electronico </h1>
-        <input className='Correo' type='text'/>
-          <h1 className='Texto'> Contraseña </h1>
-        <input className='Contraseña' type="text"/>
-            <div className='Completado'>
-                <h1 className='ya tenes' > ¿No tienes cuenta? </h1>
-                <h1 className='Ruteo' > Registrarse </h1>
-            </div>
-      </div>
+    <div className='Contenedor' >
+        <div className='Contenido'>
+          <h1>Iniciar Sesion</h1>
+          <h2>Correo Electrónico</h2>
+          <input type="text" placeholder='Email - Usuario' className='input' />
+          <h2>Contraseña</h2>
+          <input type="password" placeholder='Contraseña' className='input' />
+          <div className='botones'>
+            <button className='button'>Iniciar Sesion</button>
+            <h3>¿No tienes una cuenta? <a href="/Registro">Registrate</a></h3>
+          </div>
+        </div>
     </div>
     </>
   )
