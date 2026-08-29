@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Inicio from './pages/Inicio'
+import Inicio from './pages/Inicio_De_Sesion'
 import Registro from './pages/Registro'
 import UnirseClase from './pages/UnirseClase'
 import Pizarron from './pages/materias/Pizarron'

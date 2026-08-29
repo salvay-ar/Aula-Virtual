@@ -7,7 +7,7 @@ function App() {
     <div className='Fondo' >
       <img className='Logo'></img>
       <div className='float'>
-        <h1 className='titulo'> Iniciar Sesion </h1>
+        <h1 className='titulo'> Registro </h1>
           <h1 className='Texto'> Correo Electronico </h1>
         <input className='Correo' type='text'/>
           <h1 className='Texto'> Contraseña </h1>
