@@ -1,0 +1,73 @@
+.unirse-fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+}
+
+.unirse-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: var(--shadow);
+}
+
+.unirse-titulo {
+  font-size: 28px;
+  margin: 0 0 8px;
+  color: var(--text-h);
+}
+
+.unirse-descripcion {
+  font-size: 16px;
+  color: var(--text);
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+.unirse-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.unirse-label {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.unirse-input {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 16px;
+  background: var(--bg);
+  color: var(--text-h);
+  outline: none;
+  text-transform: uppercase;
+}
+
+.unirse-input:focus {
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 2px var(--accent-bg);
+}
+
+.unirse-boton {
+  margin-top: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.unirse-boton:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,91 @@
+.personas {
+  padding: 24px;
+  text-align: left;
+}
+
+.personas-header {
+  margin-bottom: 24px;
+}
+
+.personas-links {
+  margin-top: 12px;
+}
+
+.personas-link-tablero {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.personas-link-tablero:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.personas-titulo {
+  font-size: 28px;
+  margin: 0;
+  color: var(--text-h);
+}
+
+.personas-subtitulo {
+  font-size: 16px;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.personas-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.persona-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.persona-item:hover {
+  border-color: var(--accent-border);
+}
+
+.persona-avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-bg);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.persona-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.persona-nombre {
+  font-size: 16px;
+  color: var(--text-h);
+}
+
+.persona-rol {
+  font-size: 13px;
+  color: var(--text);
+}

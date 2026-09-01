@@ -1,0 +1,108 @@
+.tablero {
+  padding: 24px;
+  text-align: left;
+}
+
+.tablero-header {
+  margin-bottom: 24px;
+}
+
+.tablero-titulo {
+  font-size: 28px;
+  margin: 0;
+  color: var(--text-h);
+}
+
+.tablero-subtitulo {
+  font-size: 16px;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.tablero-links {
+  margin-top: 12px;
+}
+
+.tablero-link-personas {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.tablero-link-personas:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.tablero-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tablero-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.tablero-item:hover {
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 2px var(--accent-bg);
+}
+
+.tablero-item-material {
+  cursor: default;
+}
+
+.tablero-item-material:hover {
+  border-color: var(--border);
+  box-shadow: none;
+}
+
+.tablero-tipo {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: #fff;
+}
+
+.tablero-tipo.tarea {
+  background: var(--accent);
+}
+
+.tablero-tipo.material {
+  background: #4f9cf9;
+}
+
+.tablero-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tablero-titulo-item {
+  font-size: 16px;
+  margin: 0;
+  color: var(--text-h);
+}
+
+.tablero-fecha {
+  font-size: 13px;
+  color: var(--text);
+}

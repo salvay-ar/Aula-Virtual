@@ -1,0 +1,56 @@
+.pizarron {
+  padding: 24px;
+  text-align: left;
+}
+
+.pizarron-header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.pizarron-titulo {
+  font-size: 32px;
+  margin: 0;
+  color: var(--text-h);
+}
+
+.pizarron-subtitulo {
+  font-size: 16px;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.pizarron-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.pizarron-card {
+  flex: 1 1 240px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.pizarron-card:hover {
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 2px var(--accent-bg);
+}
+
+.pizarron-card-nombre {
+  font-size: 20px;
+  margin: 0 0 8px;
+  color: var(--text-h);
+}
+
+.pizarron-card-descripcion {
+  font-size: 14px;
+  color: var(--text);
+  margin: 0;
+}

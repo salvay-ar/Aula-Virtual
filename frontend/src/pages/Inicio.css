@@ -1,0 +1,82 @@
+.inicio-fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+}
+
+.inicio-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: var(--shadow);
+}
+
+.inicio-titulo {
+  font-size: 28px;
+  margin: 0 0 24px;
+  color: var(--text-h);
+}
+
+.inicio-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.inicio-label {
+  font-size: 14px;
+  color: var(--text);
+  margin-top: 8px;
+}
+
+.inicio-input {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 16px;
+  background: var(--bg);
+  color: var(--text-h);
+  outline: none;
+}
+
+.inicio-input:focus {
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 2px var(--accent-bg);
+}
+
+.inicio-boton {
+  margin-top: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.inicio-boton:hover {
+  opacity: 0.9;
+}
+
+.inicio-link {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.inicio-link a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.inicio-link a:hover {
+  text-decoration: underline;
+}
