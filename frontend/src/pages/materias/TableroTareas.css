@@ -1,10 +1,10 @@
 .tablero {
-  padding: 24px;
+  padding: 32px 24px;
   text-align: left;
 }
 
 .tablero-header {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .tablero-titulo {
@@ -20,7 +20,7 @@
 }
 
 .tablero-links {
-  margin-top: 12px;
+  margin-top: 16px;
 }
 
 .tablero-link-personas {
@@ -31,6 +31,7 @@
   color: var(--text);
   text-decoration: none;
   font-size: 14px;
+  transition: border-color 0.2s, color 0.2s;
 }
 
 .tablero-link-personas:hover {

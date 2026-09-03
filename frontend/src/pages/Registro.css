@@ -43,6 +43,7 @@
   background: var(--bg);
   color: var(--text-h);
   outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .registro-input:focus {
@@ -60,6 +61,7 @@
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  transition: opacity 0.2s;
 }
 
 .registro-boton:hover {

@@ -1,10 +1,10 @@
 .pizarron {
-  padding: 24px;
+  padding: 32px 24px;
   text-align: left;
 }
 
 .pizarron-header {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   text-align: center;
 }
 
@@ -21,26 +21,26 @@
 }
 
 .pizarron-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
 }
 
 .pizarron-card {
-  flex: 1 1 240px;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 20px;
+  padding: 24px;
   box-shadow: var(--shadow);
   cursor: pointer;
   text-decoration: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
 
 .pizarron-card:hover {
   border-color: var(--accent-border);
-  box-shadow: 0 0 0 2px var(--accent-bg);
+  box-shadow: 0 0 0 2px var(--accent-bg), var(--shadow);
+  transform: translateY(-2px);
 }
 
 .pizarron-card-nombre {

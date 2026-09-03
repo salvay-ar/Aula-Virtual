@@ -1,14 +1,14 @@
 .personas {
-  padding: 24px;
+  padding: 32px 24px;
   text-align: left;
 }
 
 .personas-header {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .personas-links {
-  margin-top: 12px;
+  margin-top: 16px;
 }
 
 .personas-link-tablero {
@@ -19,6 +19,7 @@
   color: var(--text);
   text-decoration: none;
   font-size: 14px;
+  transition: border-color 0.2s, color 0.2s;
 }
 
 .personas-link-tablero:hover {
@@ -55,6 +56,7 @@
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 10px;
+  transition: border-color 0.2s;
 }
 
 .persona-item:hover {
