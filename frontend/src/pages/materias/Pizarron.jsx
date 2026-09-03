@@ -12,8 +12,7 @@ function Pizarron() {
   return (
     <div className="pizarron">
       <header className="pizarron-header">
-        <h1 className="pizarron-titulo">Mis Clases</h1>
-        <p className="pizarron-subtitulo">Todas las clases</p>
+        <h1 className="pizarron-titulo">Mis Cursos</h1>
       </header>
 
       <main className="pizarron-grid">

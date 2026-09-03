@@ -11,26 +11,27 @@
 .pizarron-titulo {
   font-size: 32px;
   margin: 0;
-  color: var(--text-h);
 }
 
 .pizarron-subtitulo {
   font-size: 16px;
-  color: var(--text);
   margin-top: 4px;
 }
 
 .pizarron-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(4, minmax(260px, 1fr));
   gap: 16px;
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(1, minmax(260px, 1fr));
+  }
 }
 
 .pizarron-card {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 24px;
+  padding: 90px;
   box-shadow: var(--shadow);
   cursor: pointer;
   text-decoration: none;

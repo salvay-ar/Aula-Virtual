@@ -13,7 +13,7 @@ function Layout() {
               isActive ? 'layout-link active' : 'layout-link'
             }
           >
-            Mis Clases
+            Mis Cursos
           </NavLink>
           <NavLink
             to="/unirse"
@@ -21,7 +21,7 @@ function Layout() {
               isActive ? 'layout-link active' : 'layout-link'
             }
           >
-            Unirse a Clase
+            Nuevo Curso
           </NavLink>
         </div>
         <NavLink to="/" className="layout-cerrar">
