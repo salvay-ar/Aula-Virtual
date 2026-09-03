@@ -1,85 +1,81 @@
-.inicio-fondo {
+.fondo {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100svh;
+  background-image: url('../components/fondo.jpg');
 }
 
-.inicio-card {
-  background: var(--bg);
-  border: 1px solid var(--border);
+.contenedor {
+  background: black;
+  border: 1px solid;
   border-radius: 12px;
   padding: 40px;
   width: 100%;
   max-width: 400px;
-  box-shadow: var(--shadow);
 }
 
-.inicio-titulo {
+.tituloh1 {
   font-size: 28px;
   margin: 0 0 24px;
-  color: var(--text-h);
 }
 
-.inicio-formulario {
+.formulario {
   display: flex;
   flex-direction: column;
   gap: 8px;
   text-align: left;
 }
 
-.inicio-label {
+.label {
   font-size: 14px;
-  color: var(--text);
   margin-top: 8px;
 }
 
-.inicio-input {
+.input {
   padding: 10px 12px;
-  border: 1px solid var(--border);
+  border: 1px solid;
   border-radius: 6px;
   font-size: 16px;
-  background: var(--bg);
-  color: var(--text-h);
-  outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  background:rgba(62, 62, 58, 0.641);
+  color: #fff;
 }
 
-.inicio-input:focus {
-  border-color: var(--accent-border);
-  box-shadow: 0 0 0 2px var(--accent-bg);
+.input:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px;
 }
 
-.inicio-boton {
+.boton {
   margin-top: 16px;
   padding: 12px;
   border: none;
   border-radius: 6px;
-  background: var(--accent);
-  color: #fff;
+  background: #fff200;
+  color: #000;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   transition: opacity 0.2s;
 }
 
-.inicio-boton:hover {
+.boton:hover {
   opacity: 0.9;
 }
 
-.inicio-link {
+.link {
   margin-top: 16px;
   font-size: 14px;
-  color: var(--text);
+  color: rgb(176, 36, 160);
   text-align: center;
 }
 
-.inicio-link a {
-  color: var(--accent);
+.link a {
+  color: rgb(176, 36, 160);
   text-decoration: none;
   font-weight: 500;
 }
 
-.inicio-link a:hover {
+.link a:hover {
   text-decoration: underline;
 }

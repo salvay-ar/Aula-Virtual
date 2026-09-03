@@ -13,47 +13,47 @@ function Registro() {
   }
 
   return (
-    <div className="registro-fondo">
-      <div className="registro-card">
-        <h1 className="registro-titulo">Registro</h1>
+    <div className="fondo1">
+      <div className="contenedor1">
+        <h1 className="titulo1">Registro - Aula Virtual</h1>
 
-        <form className="registro-formulario" onSubmit={manejarEnvio}>
-          <label className="registro-label">Nombre Completo</label>
+        <form className="formulario1" onSubmit={manejarEnvio}>
+          <label className="label1">Nombre Completo</label>
           <input
-            className="registro-input"
+            className="input1"
             type="text"
             value={nombre}
             onChange={(e) => setNombre(e.target.value)}
           />
 
-          <label className="registro-label">Correo Electrónico</label>
+          <label className="label1">Correo Electrónico</label>
           <input
-            className="registro-input"
+            className="input1"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
 
-          <label className="registro-label">Contraseña</label>
+          <label className="label1">Contraseña</label>
           <input
-            className="registro-input"
+            className="input1"
             type="password"
             value={contraseña}
             onChange={(e) => setContraseña(e.target.value)}
           />
 
-          <label className="registro-label">Confirmar Contraseña</label>
+          <label className="label1">Confirmar Contraseña</label>
           <input
-            className="registro-input"
+            className="input1"
             type="password"
             value={confirmar}
             onChange={(e) => setConfirmar(e.target.value)}
           />
 
-          <button className="registro-boton" type="submit">Crear Cuenta</button>
+          <button className="boton1" type="submit">Crear Cuenta</button>
         </form>
 
-        <p className="registro-link">
+        <p className="link1">
           ¿Ya tenés cuenta? <Link to="/">Iniciar Sesión</Link>
         </p>
       </div>

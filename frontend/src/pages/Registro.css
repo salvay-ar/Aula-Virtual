@@ -1,86 +1,84 @@
-.registro-fondo {
+.fondo1 {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100svh;
+  background-image: url('../components/fondo.jpg');
 }
 
-.registro-card {
-  background: var(--bg);
-  border: 1px solid var(--border);
+.contenedor1 {
+  background: black;
+  border: 1px solid;
   border-radius: 12px;
   padding: 40px;
   width: 100%;
   max-width: 420px;
-  box-shadow: var(--shadow);
 }
 
-.registro-titulo {
+.titulo1 {
   font-size: 28px;
   margin: 0 0 24px;
-  color: var(--text-h);
   text-align: center;
 }
 
-.registro-formulario {
+.formulario1 {
   display: flex;
   flex-direction: column;
   gap: 8px;
   text-align: left;
 }
 
-.registro-label {
+.label1 {
   font-size: 14px;
-  color: var(--text);
   margin-top: 8px;
 }
 
-.registro-input {
+.input1 {
   padding: 10px 12px;
-  border: 1px solid var(--border);
+  border: 1px solid;
   border-radius: 6px;
   font-size: 16px;
-  background: var(--bg);
-  color: var(--text-h);
+  background: rgba(62, 62, 58, 0.641);
+  color: #fff;
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-.registro-input:focus {
-  border-color: var(--accent-border);
-  box-shadow: 0 0 0 2px var(--accent-bg);
+.input1:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px;
 }
 
-.registro-boton {
+.boton1 {
   margin-top: 16px;
   padding: 12px;
   border: none;
   border-radius: 6px;
-  background: var(--accent);
-  color: #fff;
+  background: #fff200;
+  color: #000;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   transition: opacity 0.2s;
 }
 
-.registro-boton:hover {
+.boton1:hover {
   opacity: 0.9;
 }
 
-.registro-link {
+.link1 {
   margin-top: 16px;
   font-size: 14px;
-  color: var(--text);
+  color: rgb(176, 36, 160);
   text-align: center;
 }
 
-.registro-link a {
-  color: var(--accent);
+.link1 a {
+  color: rgb(176, 36, 160);
   text-decoration: none;
   font-weight: 500;
 }
 
-.registro-link a:hover {
+.link1 a:hover {
   text-decoration: underline;
 }

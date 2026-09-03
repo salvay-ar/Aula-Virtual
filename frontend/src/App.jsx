@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/Layout'
-import Inicio from './pages/Inicio'
+import Inicio from './pages/InicioSesion'
 import Registro from './pages/Registro'
 import UnirseClase from './pages/UnirseClase'
 import Pizarron from './pages/materias/Pizarron'
@@ -23,7 +23,7 @@ function App() {
           <Route path="/materia/:id/tarea/:tareaId" element={<Tarea />} />
         </Route>
 
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   )

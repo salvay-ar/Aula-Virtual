@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './Inicio.css'
+import './inicioSesion.css'
 
 function Inicio() {
   const [email, setEmail] = useState('')
@@ -11,31 +11,31 @@ function Inicio() {
   }
 
   return (
-    <div className="inicio-fondo">
-      <div className="inicio-card">
-        <h1 className="inicio-titulo">Iniciar Sesión</h1>
+    <div className="fondo">
+      <div className="contenedor">
+        <h1 className="tituloh1">Aula Virtual</h1>
 
-        <form className="inicio-formulario" onSubmit={manejarEnvio}>
-          <label className="inicio-label">Correo Electrónico</label>
+        <form className="formulario" onSubmit={manejarEnvio}>
+          <label className="label">Correo Electrónico</label>
           <input
-            className="inicio-input"
+            className="input"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
 
-          <label className="inicio-label">Contraseña</label>
+          <label className="label">Contraseña</label>
           <input
-            className="inicio-input"
+            className="input"
             type="password"
             value={contraseña}
             onChange={(e) => setContraseña(e.target.value)}
           />
 
-          <button className="inicio-boton" type="submit">Iniciar Sesión</button>
+          <button className="boton" type="submit">Iniciar Sesión</button>
         </form>
 
-        <p className="inicio-link">
+        <p className="link">
           ¿No tenés cuenta? <Link to="/registro">Registrate</Link>
         </p>
       </div>
