@@ -9,24 +9,24 @@ function UnirseClase() {
   }
 
   return (
-    <div className="unirse-fondo">
-      <div className="unirse-card">
-        <h1 className="unirse-titulo">Unirse a Clase</h1>
-        <p className="unirse-descripcion">
+    <div className="fondoUnirse">
+      <div className="contenedorUnirse">
+        <h1 className="tituloUnirse">Unirse a Clase</h1>
+        <p className="descripcionUnirse">
           Pedile el código a tu profesor e ingresalo para unirte a la clase.
         </p>
 
-        <form className="unirse-formulario" onSubmit={manejarEnvio}>
-          <label className="unirse-label">Código de Clase</label>
+        <form className="formularioUnirse" onSubmit={manejarEnvio}>
+          <label className="labelUnirse">Código de Clase</label>
           <input
-            className="unirse-input"
+            className="inputUnirse"
             type="text"
             value={codigo}
             onChange={(e) => setCodigo(e.target.value)}
             placeholder="Ej: ABC123"
           />
 
-          <button className="unirse-boton" type="submit">Unirse</button>
+          <button className="botonUnirse" type="submit">Unirse</button>
         </form>
       </div>
     </div>
